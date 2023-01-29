@@ -1,0 +1,198 @@
+/*Estilos generales*/
+* {
+  background-color: white;
+}
+
+.Centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo-principal {
+  width: 95%;
+  height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(204, 204, 0);
+  padding: 40px;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  min-height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+/*Encabezado*/
+header {
+  width: 100%;
+  height: 50rem;
+  background-color: rgba(255, 192, 0);
+  font-size: 2rem;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: 300;
+  background-color: rgba(255, 192, 0);
+}
+
+.Navegacion-principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(248, 203, 173);
+  height: 5rem;
+}
+
+.Navegacion-principal a {
+  text-decoration: none;
+  color: crimson;
+  background-color: rgb(248, 203, 173);
+  font-size: 3rem;
+}
+
+.Navegacion-principal a:hover {
+  color: black;
+}
+
+.imagenes {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: rgba(255, 192, 0);
+
+}
+
+.imagenes img {
+  width: 30rem;
+  height: 30rem;
+
+  background-color: rgba(255, 192, 0);
+}
+
+/*Contenido principal*/
+
+.contenido-principal {
+  width: 100%;
+  height: 35rem;
+  background-color: rgba(221, 235, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido-principal h2 {
+  font-size: 3rem;
+  background-color: rgba(255, 242, 204);
+}
+
+aside {
+  width: 70rem;
+  height: 90%;
+  background-color: rgba(255, 242, 204);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+aside h2 {
+  width: 100%;
+  background-color: rgba(255, 242, 204);
+  text-align: center;
+}
+
+aside ul {
+  background-color: rgba(255, 242, 204);
+  font: bold;
+  text-align: center;
+}
+
+aside li {
+  background-color: rgba(255, 242, 204);
+  line-height: 1.7;
+  font-size: 2rem;
+}
+
+main {
+  width: 70rem;
+  height: 90%;
+  background-color: rgba(255, 242, 204);
+  text-align: center;
+  border: 1px solid black;
+}
+
+main article {
+  width: 100%;
+  background-color: rgba(155, 194, 230);
+  line-height: 3rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+/* tabla*/
+
+.tabla-completa {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(221, 235, 247);
+}
+
+.tabla {
+  background-color: rgba(0, 0, 0);
+  line-height: 1.7;
+  width: 90%;
+}
+
+.tabla tr {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.tabla tr td {
+  background-color: rgba(146, 208, 80);
+}
+
+/*Footer*/
+
+.pie-pagina {
+  width: 100%;
+  background-color: rgb(204, 255, 153);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Contacto {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(204, 255, 153);
+}
+
+.pie-pagina h3,
+h4 {
+  background-color: rgb(204, 255, 153);
+  font-size: 2rem;
+}
